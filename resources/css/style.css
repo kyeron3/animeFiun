@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Lato', 'Ariel', sans-serif;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    letter-spacing: 1px;
+}
+
+.custom-background{
+    background-image: url(img/deca-dence-background.jpg);
+    background-size:cover;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    visibility: visible;
+    height: 100vh;
+    width: 100vw;
+}
+
+.row{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+}
+
+.card{
+    width: 22rem;
+    display: block;
+    margin: 20px;
+    transition: all 0.8s;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.display-1{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.header .h5{
+    display: block;
+    max-width: 1050px;
+    align-self: center;
+    text-align: center;
+    font-family: 'Lato', 'Ariel', sans-serif;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.first-video-list{
+    background-color: #fafafa;
+}
+
+.back-button{
+    margin: 50px;
+    width: 200px;
+    height: 60px;
+}
+
+
